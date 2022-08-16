@@ -8,5 +8,49 @@ h1 {
 #equal,
 [class~=x1],
 [class~=symble] {
-    color: #f5f5f5;
+    color: #000000;
+    font-size: 28px;
+    padding-inline: 35px;
+    font-weight: 600;
+}
+
+.calc-container {
+    width: 400px;
+    padding: 10px;
+    background-color: #9593934b;
+    border-radius: 5px;
+    #output-field {
+        height: 80px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+        td {
+            transition: 1s all ease;
+        }
+        td:hover,
+        #cancel:hover,
+        #equal:hover {
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+            transition: .5s all ease;
+        }
+        th {
+            color: #1e1e1e;
+            font-size: 28px;
+            text-align: right;
+            cursor: default !important;
+        }
+        tr > td,
+        tr > th {
+            width: 25%;
+            border: 5px solid transparent;
+            background: #808080;
+            background-clip: padding-box;
+            padding: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
 }

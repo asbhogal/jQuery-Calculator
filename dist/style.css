@@ -26,5 +26,49 @@ h1 {
 #equal,
 [class~=x1],
 [class~=symble] {
+  color: #000000;
+  font-size: 28px;
+  padding-inline: 35px;
+  font-weight: 600;
+}
+
+.calc-container {
+  width: 400px;
+  padding: 10px;
+  background-color: rgba(149, 147, 147, 0.2941176471);
+  border-radius: 5px;
+}
+.calc-container #output-field {
+  height: 80px;
+}
+.calc-container table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+.calc-container table td {
+  transition: 1s all ease;
+}
+.calc-container table td:hover,
+.calc-container table #cancel:hover,
+.calc-container table #equal:hover {
+  background-color: #1e1e1e;
   color: #f5f5f5;
+  transition: 0.5s all ease;
+}
+.calc-container table th {
+  color: #1e1e1e;
+  font-size: 28px;
+  text-align: right;
+  cursor: default !important;
+}
+.calc-container table tr > td,
+.calc-container table tr > th {
+  width: 25%;
+  border: 5px solid transparent;
+  background: #808080;
+  background-clip: padding-box;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
