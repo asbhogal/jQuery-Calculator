@@ -4,11 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="dist/style.css">
-    <script src="dist/script.js"></script>
+    <script src="source-files/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="dist/script.js" defer></script>
 </head>
 <body>
-    
+    <div id="heading">
+        <h1>jQuery Calculator</h1>
+    </div>
+    <div class="calc-container">
+        <table>
+            <tr>
+                <th colspan="4">
+                    &nbsp;
+                </th>
+            </tr>
+            <tr>
+                <td class="x1 first-active">7</td>
+                <td class="x1 first-active">8</td>
+                <td class="x1 first-active">9</td>
+                <td class="symble">&#247;</td>
+            </tr>
+            <tr>
+                <td class="x1 first-active">4</td>
+                <td class="x1 first-active">5</td>
+                <td class="x1 first-active">6</td>
+                <td class="symble">&#215;</td>
+            </tr>
+            <tr>
+                <td class="x1 first-active">1</td>
+                <td class="x1 first-active">2</td>
+                <td class="x1 first-active">3</td>
+                <td class="symble">-</td>
+            </tr>
+            <tr>
+                <td class="x1 first-active">.</td>
+                <td class="x1 first-active">0</td>
+                <td class="x1 first-active">00</td>
+                <td class="symble" rowspan="2">+</td>
+            </tr>
+            <tr>
+                <td id="cancel">C</td>
+                <td id="equal">=</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>

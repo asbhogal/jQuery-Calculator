@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  height: 100vh;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 15%, rgb(33, 33, 51) 60%, rgb(47, 49, 65) 100%);
+}
+
+body {
+  font-family: "Aboreto", cursive;
+}
+
+h1 {
+  color: #f5f5f5;
+}
+
+#cancel,
+#equal,
+[class~=x1],
+[class~=symble] {
+  color: #f5f5f5;
+}/*# sourceMappingURL=style.css.map */

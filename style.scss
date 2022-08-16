@@ -1,0 +1,12 @@
+@import 'partials/globals', 'partials/typography', 'partials/variables';
+
+h1 {
+    color: #f5f5f5;
+}
+
+#cancel,
+#equal,
+[class~=x1],
+[class~=symble] {
+    color: #f5f5f5;
+}
