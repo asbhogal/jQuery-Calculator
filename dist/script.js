@@ -9,6 +9,14 @@ $(document).ready(function() {
             thisValue = $(this).text();
             $(".valueOne").append(thisValue);
             valueOne = $(".valueOne").text();
+        } else if($(".x1").hasClass("second-active")){
+            thisValue = $(this).text();
+            $(".valueTwo").append(thisValue);
+            valueTwo = $(".valueOne").text();
         }
     })
+});
+
+$(".symble").click(function() {
+    sy
 })
