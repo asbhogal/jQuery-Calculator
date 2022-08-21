@@ -12,9 +12,9 @@ $(document).ready(function() {
         } else if($(".x1").hasClass("second-active")){
             thisValue = $(this).text();
             $(".valueTwo").append(thisValue);
-            valueTwo = $(".valueOne").text();
+            valueTwo = $(".valueTwo").text();
         }
-    })
+    });
 
     $(".symble").click(function() {
         symble = $(this).html();
@@ -22,7 +22,7 @@ $(document).ready(function() {
         symble = $(".valueSymble").text();
         $(".x1").removeClass("first-active").addClass("second-active")
 
-    })
+    });
 
     $("#equal").click(function() {
         valueOne = parseFloat(valueOne);
@@ -42,6 +42,6 @@ $(document).ready(function() {
         $(".valueTwo").text("");
         $(".valueSymble").text("");
 
-    })
+    });
 
 });
