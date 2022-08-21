@@ -14,6 +14,15 @@ body {
   background: linear-gradient(90deg, rgb(0, 0, 0) 29%, rgb(33, 33, 51) 70%, rgb(49, 26, 84) 100%);
 }
 
+@media (max-width: 660px) {
+  body {
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+  body #heading, body #calc-container {
+    width: auto;
+  }
+}
 body {
   font-family: "Aboreto", cursive;
 }

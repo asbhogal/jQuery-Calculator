@@ -1,0 +1,9 @@
+@media (max-width: 660px) {
+    body {
+        flex-direction: column;
+        padding: 40px 10px;
+        #heading, #calc-container {
+            width: auto;
+        }
+    }
+}
