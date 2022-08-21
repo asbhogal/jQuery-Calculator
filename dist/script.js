@@ -15,31 +15,33 @@ $(document).ready(function() {
             valueTwo = $(".valueOne").text();
         }
     })
-});
 
-$(".symble").click(function() {
-    symble = $(this).html();
-    $(".valueSymble").text(symble);
-    symble = $(".valueSymble").text();
-    $(".x1").removeClass("first-active").addClass("second-active")
+    $(".symble").click(function() {
+        symble = $(this).html();
+        $(".valueSymble").text(symble);
+        symble = $(".valueSymble").text();
+        $(".x1").removeClass("first-active").addClass("second-active")
 
-$("#equal").click(function() {
-    valueOne = parseFloat(valueOne);
-    valueTwo = parseFloat(valueTwo);
+    })
 
-    if (symble == "+") {
-        valueOne += valueTwo
-    } else if (symble == "-") {
-        valueOne -= valueTwo
-    } else if (symble == "x") {
-        valueOne *= valueTwo
-    } else if (symble == "&#247;") {
-        valueOne /= valueTwo
-    }
+    $("#equal").click(function() {
+        valueOne = parseFloat(valueOne);
+        valueTwo = parseFloat(valueTwo);
 
-    $(".valueOne").text(valueOne);
-    $(".valueTwo").text("");
-    $(".valueSymble").text("");
-})
+        if (symble == "+") {
+            valueOne += valueTwo
+        } else if (symble == "-") {
+            valueOne -= valueTwo
+        } else if (symble == "x") {
+            valueOne *= valueTwo
+        } else if (symble == "&#247;") {
+            valueOne /= valueTwo
+        }
+
+        $(".valueOne").text(valueOne);
+        $(".valueTwo").text("");
+        $(".valueSymble").text("");
+
+    })
 
 });
