@@ -43,6 +43,13 @@ $(document).ready(function() {
 
     });
 
-    
+    $("#cancel").click(function() {
+        $(".x1").addClass("first-active");
+        $(".symble").css({"pointer-events":"none"});
+
+        $(".valueOne").text("");
+        $(".valueSymble").text("");
+        $(".valueTwo").text("");
+    })
 
 });
