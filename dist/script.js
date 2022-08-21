@@ -21,8 +21,7 @@ $(document).ready(function() {
         $(".valueSymble").text(symble);
         symble = $(".valueSymble").text();
         $(".x1").removeClass("first-active").addClass("second-active")
-
-    });
+    })
 
     $("#equal").click(function() {
         valueOne = parseFloat(valueOne);
@@ -32,16 +31,18 @@ $(document).ready(function() {
             valueOne += valueTwo
         } else if (symble == "-") {
             valueOne -= valueTwo
-        } else if (symble == "x") {
+        } else if (symble == "×") {
             valueOne *= valueTwo
-        } else if (symble == "&#247;") {
+        } else if (symble == "÷") {
             valueOne /= valueTwo
         }
 
         $(".valueOne").text(valueOne);
-        $(".valueTwo").text("");
         $(".valueSymble").text("");
+        $(".valueTwo").text("");
 
     });
+
+    
 
 });
