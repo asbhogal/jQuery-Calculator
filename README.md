@@ -1,6 +1,6 @@
 <h1>jQuery Calculator</h1>
 
-![](https://api.checklyhq.com/v1/badges/checks/28e1d14a-7384-441d-b848-cf978adb2eec?style=for-the-badge&theme=dark)
+![](https://api.checklyhq.com/v1/badges/checks/28e1d14a-7384-441d-b848-cf978adb2eec?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/28e1d14a-7384-441d-b848-cf978adb2eec?style=for-the-badge&theme=dark&responseTime=true)
 
 A simple calculator which allows for basic arithmetic operations. This has been coded using vanilla HTML5, CSS3 (SCSS) & jQuery. The calculator is fully responsive and is optimised for the web.
 
