@@ -1,6 +1,10 @@
+<div align="center">
+  
 <h1>jQuery Calculator</h1>
 
-![](https://api.checklyhq.com/v1/badges/checks/28e1d14a-7384-441d-b848-cf978adb2eec?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/28e1d14a-7384-441d-b848-cf978adb2eec?style=for-the-badge&theme=dark&responseTime=true)
+![](https://api.checklyhq.com/v1/badges/checks/28e1d14a-7384-441d-b848-cf978adb2eec?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/28e1d14a-7384-441d-b848-cf978adb2eec?style=for-the-badge&theme=dark&responseTime=true) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/jQuery-Calculator/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/jQuery-Calculator?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/jQuery-Calculator?color=blueviolet&style=for-the-badge&labelColor=000)
+
+</div>
 
 A simple calculator which allows for basic arithmetic operations. This has been coded using vanilla HTML5, CSS3 (SCSS) & jQuery. The calculator is fully responsive and is optimised for the web.
 
