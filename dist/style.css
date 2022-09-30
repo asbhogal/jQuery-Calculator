@@ -57,6 +57,9 @@ h1 {
 }
 .calc-container table td {
   transition: 1s all ease;
+  -webkit-transition: 1s all ease;
+  -moz-transition: 1s all ease;
+  -o-transition: 1s all ease;
 }
 .calc-container table td:hover,
 .calc-container table #cancel:hover,
@@ -64,6 +67,9 @@ h1 {
   background-color: #1e1e1e;
   color: #f5f5f5;
   transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 .calc-container table th {
   color: #1e1e1e;
