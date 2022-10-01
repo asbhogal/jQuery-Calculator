@@ -27,20 +27,20 @@ h1 {
         width: 100%;
         text-align: center;
         td {
-            transition: $transition-1s;
-            -webkit-transition: $transition-1s;
-            -moz-transition: $transition-1s;
-            -o-transition: $transition-1s;
+            transition:             $transition-1s;
+            -webkit-transition:     $transition-1s;
+            -moz-transition:        $transition-1s;
+            -o-transition:          $transition-1s;
         }
         td:hover,
         #cancel:hover,
         #equal:hover {
             background-color: #1e1e1e;
             color: #f5f5f5;
-            transition: $transition-half-second;
-            -webkit-transition: $transition-half-second;
-            -moz-transition: $transition-half-second;
-            -o-transition: $transition-half-second;
+            transition:             $transition-half-second;
+            -webkit-transition:     $transition-half-second;
+            -moz-transition:        $transition-half-second;
+            -o-transition:          $transition-half-second;
         }
         th {
             color: #1e1e1e;
