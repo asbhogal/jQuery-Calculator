@@ -6,3 +6,10 @@
     -moz-transition:        $transition-half-second;
     -o-transition:          $transition-half-second;
 }
+
+@mixin cross-browser-transition-set-long {
+    transition:             $transition-1s;
+    -webkit-transition:     $transition-1s;
+    -moz-transition:        $transition-1s;
+    -o-transition:          $transition-1s;
+}

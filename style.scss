@@ -31,10 +31,7 @@ h1 {
         width: 100%;
         text-align: center;
         td {
-            transition:             $transition-1s;
-            -webkit-transition:     $transition-1s;
-            -moz-transition:        $transition-1s;
-            -o-transition:          $transition-1s;
+            @include cross-browser-transition-set-long;
         }
         td:hover,
         #cancel:hover,
